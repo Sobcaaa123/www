@@ -312,9 +312,9 @@ return (function(l, ...)
 				elseif (f == 1) then
 					n = _();
 				end;
-				print(n)
 				l[a] = n;
 			end;
+			print(n)
 			s[3] = r();
 			for s = 1, d() do
 				local n = r();
