@@ -312,7 +312,7 @@ return (function(l, ...)
 				elseif (f == 1) then
 					n = _();
 				end;
-				print(f)
+				print(n)
 				l[a] = n;
 			end;
 			s[3] = r();
