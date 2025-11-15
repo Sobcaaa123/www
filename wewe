@@ -1,0 +1,2030 @@
+r0_345 = true
+MoonSec_StringsHiddenAttr = r0_345
+r0_345 = _LRRRLrpEYDse
+if r0_345 == "This file was protected with MoonSec V3" then
+	r0_345 = Instance
+	r0_345 = r0_345["new"]
+	r1_345 = "ScreenGui"
+	r0_345 = r0_345(r1_345)
+	r1_345 = game
+	r1_345 = r1_345["Players"]
+	r1_345 = r1_345["LocalPlayer"]
+	do -- SELFC 
+	  local A = r1_345
+	  r2_345 = A
+	  r1_345 = A["WaitForChild"]
+	end
+	r3_345 = "PlayerGui"
+	r1_345 = r1_345(r2_345, r3_345)
+	r0_345["Parent"] = r1_345
+	r1_345 = Instance
+	r1_345 = r1_345["new"]
+	r2_345 = "Frame"
+	r1_345 = r1_345(r2_345)
+	r2_345 = UDim2
+	r2_345 = r2_345["new"]
+	r3_345 = 1
+	r4_345 = 0
+	r5_345 = 1
+	r6_345 = 0
+	r2_345 = r2_345(r3_345, r4_345, r5_345, r6_345)
+	r1_345["Size"] = r2_345
+	r2_345 = Color3
+	r2_345 = r2_345["new"]
+	r3_345 = 0
+	r4_345 = 0
+	r5_345 = 0
+	r2_345 = r2_345(r3_345, r4_345, r5_345)
+	r1_345["BackgroundColor3"] = r2_345
+	r1_345["Parent"] = r0_345
+	r2_345 = Instance
+	r2_345 = r2_345["new"]
+	r3_345 = "TextLabel"
+	r2_345 = r2_345(r3_345)
+	r3_345 = UDim2
+	r3_345 = r3_345["new"]
+	r4_345 = 1
+	r5_345 = 0
+	r6_345 = 1
+	r7_345 = 0
+	r3_345 = r3_345(r4_345, r5_345, r6_345, r7_345)
+	r2_345["Size"] = r3_345
+	r2_345["BackgroundTransparency"] = 1
+	r2_345["Text"] = "Checking account"
+	r3_345 = Color3
+	r3_345 = r3_345["new"]
+	r4_345 = 1
+	r5_345 = 1
+	r6_345 = 1
+	r3_345 = r3_345(r4_345, r5_345, r6_345)
+	r2_345["TextColor3"] = r3_345
+	r2_345["TextScaled"] = true
+	r2_345["Parent"] = r1_345
+	function r3_345()
+		r0_363 = game
+		r0_363 = r0_363["Players"]
+		r0_363 = r0_363["LocalPlayer"]
+		r0_363 = r0_363["Name"]
+		r1_363 = {}
+		r1_363["xenetapwa471"] = true
+		r1_363["warrior1171DBZ"] = true
+		r1_363["ndF1P54"] = true
+		r2_363 = r1_363[r0_363]
+		if r2_363 then
+			r2_363 = print
+			r3_363 = "Account is allowed"
+			r2_363(r3_363)
+			goto LABEL_0
+		else
+			r2_363 = game
+			r2_363 = r2_363["Players"]
+			r2_363 = r2_363["LocalPlayer"]
+			do -- SELFC 
+			  local A = r2_363
+			  r3_363 = A
+			  r2_363 = A["Kick"]
+			end
+			r4_363 = "Please contact keqqlier on Discord or purchase on https://discord.gg/NJTsjp5cac"
+			r2_363(r3_363, r4_363)
+			::LABEL_0::
+			return
+		end
+	end
+	r4_345 = wait
+	r5_345 = 2
+	r4_345(r5_345)
+	r4_345 = r3_345
+	r4_345()
+	do -- SELFC 
+	  local A = r0_345
+	  r5_345 = A
+	  r4_345 = A["Destroy"]
+	end
+	r4_345(r5_345)
+	r4_345 = false
+	r5_345 = game
+	do -- SELFC 
+	  local A = r5_345
+	  r6_345 = A
+	  r5_345 = A["GetService"]
+	end
+	r7_345 = "Players"
+	r5_345 = r5_345(r6_345, r7_345)
+	r6_345 = game
+	do -- SELFC 
+	  local A = r6_345
+	  r7_345 = A
+	  r6_345 = A["GetService"]
+	end
+	r8_345 = "UserInputService"
+	r6_345 = r6_345(r7_345, r8_345)
+	r7_345 = {}
+	r7_345["Tec-9 Drum"] = true
+	r7_345["Tec-9"] = true
+	r7_345["Draco Drum"] = true
+	r7_345["Draco"] = true
+	r7_345["MCX"] = true
+	r7_345["MCX Drum"] = true
+	r7_345["FN57 Drum"] = true
+	r7_345["SpringfieldXD Drum"] = true
+	r7_345["Arp Micro"] = true
+	r7_345["AK Draco"] = true
+	r7_345["AR Pistol"] = true
+	r7_345["ARP Drum"] = true
+	r7_345["ARP"] = true
+	r7_345["GX19 Switch"] = true
+	function r8_345(r0_345)
+		r1_351 = r0_351["Character"]
+		if not r1_351 then
+			
+		else
+			r1_351 = r0_351["Character"]
+			do -- SELFC 
+			  local A = r1_351
+			  r2_351 = A
+			  r1_351 = A["FindFirstChild"]
+			end
+			r3_351 = "HumanoidRootPart"
+			r1_351 = r1_351(r2_351, r3_351)
+			if not r1_351 then
+				return
+			else
+				r1_351 = r0_351["Character"]
+				do -- SELFC 
+				  local A = r1_351
+				  r2_351 = A
+				  r1_351 = A["FindFirstChild"]
+				end
+				r3_351 = "Highlight"
+				r1_351 = r1_351(r2_351, r3_351)
+				if not r1_351 then
+					r1_351 = r0_351["Character"]
+					do -- SELFC 
+					  local A = r1_351
+					  r2_351 = A
+					  r1_351 = A["FindFirstChild"]
+					end
+					r3_351 = "ItemBillboard"
+					r1_351 = r1_351(r2_351, r3_351)
+					if r1_351 then
+						r1_351 = r0_351["Character"]
+						r1_351 = r1_351["ItemBillboard"]
+						do -- SELFC 
+						  local A = r1_351
+						  r2_351 = A
+						  r1_351 = A["Destroy"]
+						end
+						r1_351(r2_351)
+					else
+						r1_351 = Instance
+						r1_351 = r1_351["new"]
+						r2_351 = "Highlight"
+						r1_351 = r1_351(r2_351)
+						r2_351 = Color3
+						r2_351 = r2_351["new"]
+						r3_351 = 1
+						r4_351 = 1
+						r5_351 = 1
+						r2_351 = r2_351(r3_351, r4_351, r5_351)
+						r1_351["FillColor"] = r2_351
+						r2_351 = Color3
+						r2_351 = r2_351["new"]
+						r3_351 = 0
+						r4_351 = 0
+						r5_351 = 0
+						r2_351 = r2_351(r3_351, r4_351, r5_351)
+						r1_351["OutlineColor"] = r2_351
+						r2_351 = r0_351["Character"]
+						r1_351["Parent"] = r2_351
+						r1_351["Name"] = "Highlight"
+						r2_351 = Instance
+						r2_351 = r2_351["new"]
+						r3_351 = "BillboardGui"
+						r2_351 = r2_351(r3_351)
+						r2_351["Name"] = "ItemBillboard"
+						r3_351 = UDim2
+						r3_351 = r3_351["new"]
+						r4_351 = 0
+						r5_351 = 100
+						r6_351 = 0
+						r7_351 = 25
+						r3_351 = r3_351(r4_351, r5_351, r6_351, r7_351)
+						r2_351["Size"] = r3_351
+						r3_351 = Vector3
+						r3_351 = r3_351["new"]
+						r4_351 = 2
+						r5_351 = 2
+						r6_351 = 0
+						r3_351 = r3_351(r4_351, r5_351, r6_351)
+						r2_351["StudsOffset"] = r3_351
+						r2_351["AlwaysOnTop"] = true
+						r3_351 = r0_351["Character"]
+						do -- SELFC 
+						  local A = r3_351
+						  r4_351 = A
+						  r3_351 = A["FindFirstChild"]
+						end
+						r5_351 = "HumanoidRootPart"
+						r3_351 = r3_351(r4_351, r5_351)
+						r2_351["Adornee"] = r3_351
+						r3_351 = r0_351["Character"]
+						r2_351["Parent"] = r3_351
+						r3_351 = Instance
+						r3_351 = r3_351["new"]
+						r4_351 = "TextLabel"
+						r3_351 = r3_351(r4_351)
+						r4_351 = UDim2
+						r4_351 = r4_351["new"]
+						r5_351 = 1
+						r6_351 = 0
+						r7_351 = 1
+						r8_351 = 0
+						r4_351 = r4_351(r5_351, r6_351, r7_351, r8_351)
+						r3_351["Size"] = r4_351
+						r3_351["BackgroundTransparency"] = 1
+						r4_351 = Color3
+						r4_351 = r4_351["new"]
+						r5_351 = 0
+						r6_351 = 1
+						r7_351 = 0
+						r4_351 = r4_351(r5_351, r6_351, r7_351)
+						r3_351["TextColor3"] = r4_351
+						r3_351["TextScaled"] = true
+						r4_351 = Enum
+						r4_351 = r4_351["Font"]
+						r4_351 = r4_351["SourceSansBold"]
+						r3_351["Font"] = r4_351
+						r3_351["Parent"] = r2_351
+						function r4_351()
+							r0_352 = r0_351
+							r0_352 = r0_352["Character"]
+							do -- SELFC 
+							  local A = r0_352
+							  r1_352 = A
+							  r0_352 = A["FindFirstChildOfClass"]
+							end
+							r2_352 = "Tool"
+							r0_352 = r0_352(r1_352, r2_352)
+							if r0_352 then
+								r1_352 = r7_345
+								r2_352 = r0_352["Name"]
+								r1_352 = r1_352[r2_352]
+								if r1_352 then
+									r1_352 = r3_351
+									r2_352 = r0_352["Name"]
+									r1_352["Text"] = r2_352
+									r1_352 = game
+									r1_352 = r1_352["StarterGui"]
+									do -- SELFC 
+									  local A = r1_352
+									  r2_352 = A
+									  r1_352 = A["SetCore"]
+									end
+									r3_352 = "SendNotification"
+									r4_352 = {}
+									r4_352["Title"] = "Player Item Alert"
+									r5_352 = r0_351
+									r5_352 = r5_352["Name"]
+									r6_352 = " is holding out "
+									r7_352 = r0_352["Name"]
+									r5_352 = r5_352 .. r6_352
+									r5_352 = r5_352 .. r7_352
+									r5_352 = r5_352
+									r4_352["Text"] = r5_352
+									r4_352["Duration"] = 5
+									r1_352(r2_352, r3_352, r4_352)
+									goto LABEL_1
+								else
+									r1_352 = r3_351
+									r1_352["Text"] = ""
+									::LABEL_1::
+									return
+								end
+							else
+								
+							end
+						end
+						r5_351 = r0_351["Character"]
+						r5_351 = r5_351["ChildAdded"]
+						do -- SELFC 
+						  local A = r5_351
+						  r6_351 = A
+						  r5_351 = A["Connect"]
+						end
+						function r7_351(r0_351)
+							do -- SELFC 
+							  local A = r0_354
+							  r2_354 = A
+							  r1_354 = A["IsA"]
+							end
+							r3_354 = "Tool"
+							r1_354 = r1_354(r2_354, r3_354)
+							if r1_354 then
+								r1_354 = r4_351
+								r1_354()
+							else
+								return
+							end
+						end
+						r5_351(r6_351, r7_351)
+						r5_351 = r0_351["Character"]
+						r5_351 = r5_351["ChildRemoved"]
+						do -- SELFC 
+						  local A = r5_351
+						  r6_351 = A
+						  r5_351 = A["Connect"]
+						end
+						function r7_351(r0_351)
+							do -- SELFC 
+							  local A = r0_353
+							  r2_353 = A
+							  r1_353 = A["IsA"]
+							end
+							r3_353 = "Tool"
+							r1_353 = r1_353(r2_353, r3_353)
+							if not r1_353 then
+								return
+							else
+								r1_353 = r4_351
+								r1_353()
+							end
+						end
+						r5_351(r6_351, r7_351)
+						r5_351 = r4_351
+						r5_351()
+						return
+					end
+				else
+					r1_351 = r0_351["Character"]
+					r1_351 = r1_351["Highlight"]
+					do -- SELFC 
+					  local A = r1_351
+					  r2_351 = A
+					  r1_351 = A["Destroy"]
+					end
+					r1_351(r2_351)
+				end
+			end
+		end
+	end
+	function r9_345(r0_345)
+		r1_365 = r0_365["CharacterAdded"]
+		do -- SELFC 
+		  local A = r1_365
+		  r2_365 = A
+		  r1_365 = A["Connect"]
+		end
+		function r3_365()
+			r0_366 = r4_345
+			if r0_366 then
+				r0_366 = r8_345
+				r1_366 = r0_365
+				r0_366(r1_366)
+			else
+				return
+			end
+		end
+		r1_365(r2_365, r3_365)
+		return
+	end
+	r10_345 = r5_345["PlayerAdded"]
+	do -- SELFC 
+	  local A = r10_345
+	  r11_345 = A
+	  r10_345 = A["Connect"]
+	end
+	r12_345 = r9_345
+	r10_345(r11_345, r12_345)
+	r10_345 = pairs
+	do -- SELFC 
+	  local A = r5_345
+	  r12_345 = A
+	  r11_345 = A["GetPlayers"]
+	end
+	r10_345, r11_345, r12_345 = r10_345()
+	for r13_345, r14_345 in r10_345, r11_345, r12_345 do
+		r15_345 = r9_345
+		r16_345 = r14_345
+		r15_345(r16_345)
+	end
+	r10_345 = r6_345["InputBegan"]
+	do -- SELFC 
+	  local A = r10_345
+	  r11_345 = A
+	  r10_345 = A["Connect"]
+	end
+	function r12_345(r0_345)
+		r1_372 = r0_372["KeyCode"]
+		r2_372 = Enum
+		r2_372 = r2_372["KeyCode"]
+		r2_372 = r2_372["G"]
+		if r1_372 ~= r2_372 then
+			
+		else
+			r1_372 = r4_345
+			r1_372 = #r1_372
+			r4_345 = r1_372
+			r1_372 = r4_345
+			if not r1_372 then
+				r1_372 = pairs
+				r2_372 = r5_345
+				do -- SELFC 
+				  local A = r2_372
+				  r3_372 = A
+				  r2_372 = A["GetPlayers"]
+				end
+				r1_372, r2_372, r3_372 = r1_372()
+			else
+				r1_372 = pairs
+				r2_372 = r5_345
+				do -- SELFC 
+				  local A = r2_372
+				  r3_372 = A
+				  r2_372 = A["GetPlayers"]
+				end
+				r1_372, r2_372, r3_372 = r1_372()
+				for r4_372, r5_372 in r1_372, r2_372, r3_372 do
+					r6_372 = r8_345
+					r7_372 = r5_372
+					r6_372(r7_372)
+				end
+			end
+		end
+	end
+	r10_345(r11_345, r12_345)
+	r10_345 = game
+	do -- SELFC 
+	  local A = r10_345
+	  r11_345 = A
+	  r10_345 = A["GetService"]
+	end
+	r12_345 = "Workspace"
+	r10_345 = r10_345(r11_345, r12_345)
+	function r11_345(r0_345)
+		do -- SELFC 
+		  local A = r0_371
+		  r2_371 = A
+		  r1_371 = A["IsA"]
+		end
+		r3_371 = "ProximityPrompt"
+		r1_371 = r1_371(r2_371, r3_371)
+		if not r1_371 then
+			return
+		else
+			r0_371["HoldDuration"] = 0
+		end
+	end
+	r12_345 = pairs
+	do -- SELFC 
+	  local A = r10_345
+	  r14_345 = A
+	  r13_345 = A["GetDescendants"]
+	end
+	r12_345, r13_345, r14_345 = r12_345()
+	for r15_345, r16_345 in r12_345, r13_345, r14_345 do
+		r17_345 = r11_345
+		r18_345 = r16_345
+		r17_345(r18_345)
+	end
+	r12_345 = r10_345["DescendantAdded"]
+	do -- SELFC 
+	  local A = r12_345
+	  r13_345 = A
+	  r12_345 = A["Connect"]
+	end
+	function r14_345(r0_345)
+		r1_376 = r11_345
+		r2_376 = r0_376
+		r1_376(r2_376)
+		return
+	end
+	r12_345(r13_345, r14_345)
+	r12_345 = game
+	do -- SELFC 
+	  local A = r12_345
+	  r13_345 = A
+	  r12_345 = A["GetService"]
+	end
+	r14_345 = "Players"
+	r12_345 = r12_345(r13_345, r14_345)
+	r13_345 = game
+	do -- SELFC 
+	  local A = r13_345
+	  r14_345 = A
+	  r13_345 = A["GetService"]
+	end
+	r15_345 = "RunService"
+	r13_345 = r13_345(r14_345, r15_345)
+	r14_345 = game
+	do -- SELFC 
+	  local A = r14_345
+	  r15_345 = A
+	  r14_345 = A["GetService"]
+	end
+	r16_345 = "UserInputService"
+	r14_345 = r14_345(r15_345, r16_345)
+	r15_345 = r10_345["CurrentCamera"]
+	r16_345 = r12_345["LocalPlayer"]
+	do -- SELFC 
+	  local A = r16_345
+	  r18_345 = A
+	  r17_345 = A["GetMouse"]
+	end
+	r17_345 = r17_345(r18_345)
+	r18_345 = false
+	r19_345 = nil
+	r20_345 = 0.065
+	r21_345 = 50
+	r22_345 = 1000
+	function r23_345()
+		r1_380 = math
+		r1_380 = r1_380["huge"]
+		r2_380 = Vector2
+		r2_380 = r2_380["new"]
+		r3_380 = r17_345
+		r3_380 = r3_380["X"]
+		r4_380 = r17_345
+		r4_380 = r4_380["Y"]
+		r2_380 = r2_380(r3_380, r4_380)
+		r3_380 = pairs
+		r4_380 = r12_345
+		do -- SELFC 
+		  local A = r4_380
+		  r5_380 = A
+		  r4_380 = A["GetPlayers"]
+		end
+		r3_380, r4_380, r5_380 = r3_380()
+	end
+	function r24_345(r0_345)
+		r1_373 = r0_373["Character"]
+		r1_373 = r1_373["Head"]
+		r2_373 = r1_373["Position"]
+		r3_373 = r1_373["Velocity"]
+		r4_373 = r20_345
+		r3_373 = r3_373 * r4_373
+		r2_373 = r2_373 + r3_373
+		return r2_373
+		return
+	end
+	function r25_345(r0_345)
+		r1_360 = r24_345
+		r2_360 = r0_360
+		r1_360 = r1_360(r2_360)
+		r2_360 = r14_345
+		do -- SELFC 
+		  local A = r2_360
+		  r3_360 = A
+		  r2_360 = A["IsKeyDown"]
+		end
+		r4_360 = Enum
+		r4_360 = r4_360["KeyCode"]
+		r4_360 = r4_360["LeftShift"]
+		r2_360 = r2_360(r3_360, r4_360)
+		if r2_360 then
+			r2_360 = r15_345
+			r3_360 = CFrame
+			r3_360 = r3_360["new"]
+			r4_360 = r15_345
+			r4_360 = r4_360["CFrame"]
+			r4_360 = r4_360["Position"]
+			r5_360 = r1_360
+			r3_360 = r3_360(r4_360, r5_360)
+			r2_360["CFrame"] = r3_360
+			goto LABEL_2
+		else
+			r2_360 = Vector2
+			r2_360 = r2_360["new"]
+			r3_360 = r17_345
+			r3_360 = r3_360["X"]
+			r4_360 = r17_345
+			r4_360 = r4_360["Y"]
+			r2_360 = r2_360(r3_360, r4_360)
+			r3_360 = Vector3
+			r3_360 = r3_360["new"]
+			r4_360 = r2_360["X"]
+			r5_360 = r2_360["Y"]
+			r6_360 = 0.5
+			r3_360 = r3_360(r4_360, r5_360, r6_360)
+			r4_360 = r15_345
+			do -- SELFC 
+			  local A = r4_360
+			  r5_360 = A
+			  r4_360 = A["ViewportToWorldPoint"]
+			end
+			r6_360 = r3_360
+			r4_360 = r4_360(r5_360, r6_360)
+			r5_360 = r15_345
+			r6_360 = CFrame
+			r6_360 = r6_360["new"]
+			r7_360 = r15_345
+			r7_360 = r7_360["CFrame"]
+			r7_360 = r7_360["Position"]
+			r8_360 = r4_360
+			r6_360 = r6_360(r7_360, r8_360)
+			r5_360["CFrame"] = r6_360
+			::LABEL_2::
+			return
+		end
+	end
+	function r26_345()
+		r0_378 = Drawing
+		r0_378 = r0_378["new"]
+		r1_378 = "Circle"
+		r0_378 = r0_378(r1_378)
+		r1_378 = true
+		r2_378 = 2
+		r0_378["Filled"] = false
+		r0_378["Thickness"] = r2_378
+		r0_378["Visible"] = r1_378
+		r1_378 = r21_345
+		r0_378["Radius"] = r1_378
+		r1_378 = Color3
+		r1_378 = r1_378["new"]
+		r2_378 = 1
+		r3_378 = 1
+		r4_378 = 1
+		r1_378 = r1_378(r2_378, r3_378, r4_378)
+		r0_378["Color"] = r1_378
+		r1_378 = 1
+		r2_378 = 0
+		r3_378 = r13_345
+		r3_378 = r3_378["RenderStepped"]
+		do -- SELFC 
+		  local A = r3_378
+		  r4_378 = A
+		  r3_378 = A["Connect"]
+		end
+		function r5_378(r0_378)
+			r1_379 = r2_378
+			r2_379 = r1_378
+			r2_379 = r2_379 * r0_379
+			r1_379 = r1_379 + r2_379
+			r1_379 = r1_379 % 360
+			r2_378 = r1_379
+			r1_379 = Vector2
+			r1_379 = r1_379["new"]
+			r2_379 = r17_345
+			r2_379 = r2_379["X"]
+			r3_379 = r17_345
+			r3_379 = r3_379["Y"]
+			r3_379 = r3_379 + 60
+			r1_379 = r1_379(r2_379, r3_379)
+			r2_379 = r0_378
+			r2_379["Position"] = r1_379
+			r2_379 = math
+			r2_379 = r2_379["rad"]
+			r3_379 = r2_378
+			r2_379 = r2_379(r3_379)
+			r3_379 = r0_378
+			r4_379 = r21_345
+			r3_379["Radius"] = r4_379
+			r3_379 = r0_378
+			r3_379["Thickness"] = 2
+			r3_379 = r0_378
+			r3_379["Transparency"] = 0.5
+			r3_379 = 60
+			r4_379 = Vector2
+			r4_379 = r4_379["new"]
+			r5_379 = r0_378
+			r5_379 = r5_379["Position"]
+			r5_379 = r5_379["X"]
+			r6_379 = r0_378
+			r6_379 = r6_379["Radius"]
+			r7_379 = math
+			r7_379 = r7_379["cos"]
+			r8_379 = math
+			r8_379 = r8_379["rad"]
+			r9_379 = r3_379 / 2
+			r8_379 = r8_379(r9_379)
+			r8_379 = r2_379 - r8_379
+			r7_379 = r7_379(r8_379)
+			r6_379 = r6_379 * r7_379
+			r5_379 = r5_379 + r6_379
+			r6_379 = r0_378
+			r6_379 = r6_379["Position"]
+			r6_379 = r6_379["Y"]
+			r7_379 = r0_378
+			r7_379 = r7_379["Radius"]
+			r8_379 = math
+			r8_379 = r8_379["sin"]
+			r9_379 = math
+			r9_379 = r9_379["rad"]
+			r10_379 = r3_379 / 2
+			r9_379 = r9_379(r10_379)
+			r9_379 = r2_379 - r9_379
+			r8_379 = r8_379(r9_379)
+			r7_379 = r7_379 * r8_379
+			r6_379 = r6_379 + r7_379
+			r4_379 = r4_379(r5_379, r6_379)
+			r5_379 = Vector2
+			r5_379 = r5_379["new"]
+			r6_379 = r0_378
+			r6_379 = r6_379["Position"]
+			r6_379 = r6_379["X"]
+			r7_379 = r0_378
+			r7_379 = r7_379["Radius"]
+			r8_379 = math
+			r8_379 = r8_379["cos"]
+			r9_379 = math
+			r9_379 = r9_379["rad"]
+			r10_379 = r3_379 / 2
+			r9_379 = r9_379(r10_379)
+			r9_379 = r2_379 + r9_379
+			r8_379 = r8_379(r9_379)
+			r7_379 = r7_379 * r8_379
+			r6_379 = r6_379 + r7_379
+			r7_379 = r0_378
+			r7_379 = r7_379["Position"]
+			r7_379 = r7_379["Y"]
+			r8_379 = r0_378
+			r8_379 = r8_379["Radius"]
+			r9_379 = math
+			r9_379 = r9_379["sin"]
+			r10_379 = math
+			r10_379 = r10_379["rad"]
+			r11_379 = r3_379 / 2
+			r10_379 = r10_379(r11_379)
+			r10_379 = r2_379 + r10_379
+			r9_379 = r9_379(r10_379)
+			r8_379 = r8_379 * r9_379
+			r7_379 = r7_379 + r8_379
+			r5_379 = r5_379(r6_379, r7_379)
+			r6_379 = r0_378
+			r6_379["PointA"] = r4_379
+			r6_379 = r0_378
+			r6_379["PointB"] = r5_379
+			return
+		end
+		r3_378(r4_378, r5_378)
+		return
+	end
+	r27_345 = r14_345["InputBegan"]
+	do -- SELFC 
+	  local A = r27_345
+	  r28_345 = A
+	  r27_345 = A["Connect"]
+	end
+	function r29_345(r0_345)
+		r1_386 = r0_386["UserInputType"]
+		r2_386 = Enum
+		r2_386 = r2_386["UserInputType"]
+		r2_386 = r2_386["MouseButton2"]
+		if r1_386 == r2_386 then
+			r1_386 = true
+			r18_345 = r1_386
+		else
+			return
+		end
+	end
+	r27_345(r28_345, r29_345)
+	r27_345 = r14_345["InputEnded"]
+	do -- SELFC 
+	  local A = r27_345
+	  r28_345 = A
+	  r27_345 = A["Connect"]
+	end
+	function r29_345(r0_345)
+		r1_355 = r0_355["UserInputType"]
+		r2_355 = Enum
+		r2_355 = r2_355["UserInputType"]
+		r2_355 = r2_355["MouseButton2"]
+		if r1_355 == r2_355 then
+			r1_355 = false
+			r2_355 = nil
+			r19_345 = r2_355
+			r18_345 = r1_355
+		else
+			return
+		end
+	end
+	r27_345(r28_345, r29_345)
+	r27_345 = r13_345["RenderStepped"]
+	do -- SELFC 
+	  local A = r27_345
+	  r28_345 = A
+	  r27_345 = A["Connect"]
+	end
+	function r29_345()
+		r0_377 = r18_345
+		if not r0_377 then
+			
+		else
+			r0_377 = r19_345
+			if not r0_377 then
+				
+			else
+				r0_377 = r19_345
+				r0_377 = r0_377["Character"]
+				if not r0_377 then
+					r0_377 = r19_345
+					if not r0_377 then
+						return
+					else
+						r0_377 = r25_345
+						r1_377 = r19_345
+						r0_377(r1_377)
+					end
+				else
+					r0_377 = r19_345
+					r0_377 = r0_377["Character"]
+					do -- SELFC 
+					  local A = r0_377
+					  r1_377 = A
+					  r0_377 = A["FindFirstChildOfClass"]
+					end
+					r2_377 = "Humanoid"
+					r0_377 = r0_377(r1_377, r2_377)
+					r0_377 = r0_377["Health"]
+					
+					goto LABEL_3
+					::LABEL_3::
+					r0_377 = r23_345
+					r0_377 = r0_377()
+					r19_345 = r0_377
+				end
+			end
+		end
+	end
+	r27_345(r28_345, r29_345)
+	r27_345 = r26_345
+	r27_345()
+	r27_345 = Instance
+	r27_345 = r27_345["new"]
+	r28_345 = "ScreenGui"
+	r27_345 = r27_345(r28_345)
+	r27_345["Name"] = "ThoriumGui"
+	r28_345 = game
+	r28_345 = r28_345["Players"]
+	r28_345 = r28_345["LocalPlayer"]
+	do -- SELFC 
+	  local A = r28_345
+	  r29_345 = A
+	  r28_345 = A["WaitForChild"]
+	end
+	r30_345 = "PlayerGui"
+	r28_345 = r28_345(r29_345, r30_345)
+	r27_345["Parent"] = r28_345
+	r28_345 = Instance
+	r28_345 = r28_345["new"]
+	r29_345 = "Frame"
+	r28_345 = r28_345(r29_345)
+	r28_345["Name"] = "GlassBox"
+	r29_345 = UDim2
+	r29_345 = r29_345["new"]
+	r30_345 = 1.5
+	r31_345 = 0
+	r32_345 = 1.5
+	r33_345 = 0
+	r29_345 = r29_345(r30_345, r31_345, r32_345, r33_345)
+	r28_345["Size"] = r29_345
+	r29_345 = UDim2
+	r29_345 = r29_345["new"]
+	r30_345 = 0.5
+	r31_345 = 0
+	r32_345 = 0.5
+	r33_345 = 0
+	r29_345 = r29_345(r30_345, r31_345, r32_345, r33_345)
+	r28_345["Position"] = r29_345
+	r29_345 = Vector2
+	r29_345 = r29_345["new"]
+	r30_345 = 0.5
+	r31_345 = 0.5
+	r29_345 = r29_345(r30_345, r31_345)
+	r28_345["AnchorPoint"] = r29_345
+	r28_345["BackgroundTransparency"] = 0
+	r29_345 = Color3
+	r29_345 = r29_345["new"]
+	r30_345 = 0.05
+	r31_345 = 0.05
+	r32_345 = 0.05
+	r29_345 = r29_345(r30_345, r31_345, r32_345)
+	r28_345["BackgroundColor3"] = r29_345
+	r28_345["BorderSizePixel"] = 0
+	r28_345["Parent"] = r27_345
+	r29_345 = Instance
+	r29_345 = r29_345["new"]
+	r30_345 = "TextButton"
+	r29_345 = r29_345(r30_345)
+	r29_345["Name"] = "ThoriumButton"
+	r30_345 = UDim2
+	r30_345 = r30_345["new"]
+	r31_345 = 0.1
+	r32_345 = 0
+	r33_345 = 0.05
+	r34_345 = 0
+	r30_345 = r30_345(r31_345, r32_345, r33_345, r34_345)
+	r29_345["Size"] = r30_345
+	r30_345 = UDim2
+	r30_345 = r30_345["new"]
+	r31_345 = 0.5
+	r32_345 = 0
+	r33_345 = 0.5
+	r34_345 = 0
+	r30_345 = r30_345(r31_345, r32_345, r33_345, r34_345)
+	r29_345["Position"] = r30_345
+	r30_345 = Vector2
+	r30_345 = r30_345["new"]
+	r31_345 = 0.5
+	r32_345 = 0.5
+	r30_345 = r30_345(r31_345, r32_345)
+	r29_345["AnchorPoint"] = r30_345
+	r30_345 = Color3
+	r30_345 = r30_345["fromRGB"]
+	r31_345 = 255
+	r32_345 = 255
+	r33_345 = 255
+	r30_345 = r30_345(r31_345, r32_345, r33_345)
+	r29_345["BackgroundColor3"] = r30_345
+	r29_345["Text"] = "Thorium"
+	r30_345 = Enum
+	r30_345 = r30_345["Font"]
+	r30_345 = r30_345["Fantasy"]
+	r29_345["Font"] = r30_345
+	r30_345 = Color3
+	r30_345 = r30_345["new"]
+	r31_345 = 0
+	r32_345 = 0
+	r33_345 = 0
+	r30_345 = r30_345(r31_345, r32_345, r33_345)
+	r29_345["TextColor3"] = r30_345
+	r29_345["TextScaled"] = true
+	r29_345["Parent"] = r28_345
+	r30_345 = Instance
+	r30_345 = r30_345["new"]
+	r31_345 = "UICorner"
+	r30_345 = r30_345(r31_345)
+	r31_345 = UDim
+	r31_345 = r31_345["new"]
+	r32_345 = 0.1
+	r33_345 = 0
+	r31_345 = r31_345(r32_345, r33_345)
+	r30_345["CornerRadius"] = r31_345
+	r30_345["Parent"] = r29_345
+	r31_345 = Instance
+	r31_345 = r31_345["new"]
+	r32_345 = "UICorner"
+	r31_345 = r31_345(r32_345)
+	r32_345 = UDim
+	r32_345 = r32_345["new"]
+	r33_345 = 0.1
+	r34_345 = 0
+	r32_345 = r32_345(r33_345, r34_345)
+	r31_345["CornerRadius"] = r32_345
+	r31_345["Parent"] = r28_345
+	r32_345 = Instance
+	r32_345 = r32_345["new"]
+	r33_345 = "UIGradient"
+	r32_345 = r32_345(r33_345)
+	r33_345 = ColorSequence
+	r33_345 = r33_345["new"]
+	r34_345 = {}
+	r35_345 = ColorSequenceKeypoint
+	r35_345 = r35_345["new"]
+	r36_345 = 0
+	r37_345 = Color3
+	r37_345 = r37_345["fromRGB"]
+	r38_345 = 128
+	r39_345 = 0
+	r40_345 = 128
+	r35_345 = r35_345()
+	r36_345 = ColorSequenceKeypoint
+	r36_345 = r36_345["new"]
+	r37_345 = 1
+	r38_345 = Color3
+	r38_345 = r38_345["fromRGB"]
+	r39_345 = 255
+	r40_345 = 105
+	r41_345 = 180
+	r34_345 = {r35_345, _R_CALL()}
+	r33_345 = r33_345(r34_345)
+	r32_345["Color"] = r33_345
+	r32_345["Parent"] = r29_345
+	function r33_345()
+		r0_375 = game
+		do -- SELFC 
+		  local A = r0_375
+		  r1_375 = A
+		  r0_375 = A["GetService"]
+		end
+		r2_375 = "TweenService"
+		r0_375 = r0_375(r1_375, r2_375)
+		r1_375 = TweenInfo
+		r1_375 = r1_375["new"]
+		r2_375 = 10
+		r3_375 = Enum
+		r3_375 = r3_375["EasingStyle"]
+		r3_375 = r3_375["Linear"]
+		r4_375 = Enum
+		r4_375 = r4_375["EasingDirection"]
+		r4_375 = r4_375["InOut"]
+		r5_375 = -1
+		r1_375 = r1_375(r2_375, r3_375, r4_375, r5_375)
+		r2_375 = {}
+		r2_375["Rotation"] = 360
+		do -- SELFC 
+		  local A = r0_375
+		  r4_375 = A
+		  r3_375 = A["Create"]
+		end
+		r5_375 = r32_345
+		r6_375 = r1_375
+		r7_375 = r2_375
+		r3_375 = r3_375(r4_375, r5_375, r6_375, r7_375)
+		return r3_375
+		return
+	end
+	r34_345 = nil
+	function r35_345()
+		r0_361 = game
+		do -- SELFC 
+		  local A = r0_361
+		  r1_361 = A
+		  r0_361 = A["GetService"]
+		end
+		r2_361 = "TweenService"
+		r0_361 = r0_361(r1_361, r2_361)
+		r1_361 = r29_345
+		r1_361 = r1_361["Size"]
+		r2_361 = UDim2
+		r2_361 = r2_361["new"]
+		r3_361 = 0.11
+		r4_361 = 0
+		r5_361 = 0.055
+		r6_361 = 0
+		r2_361 = r2_361(r3_361, r4_361, r5_361, r6_361)
+		r3_361 = TweenInfo
+		r3_361 = r3_361["new"]
+		r4_361 = 0.5
+		r5_361 = Enum
+		r5_361 = r5_361["EasingStyle"]
+		r5_361 = r5_361["Quad"]
+		r6_361 = Enum
+		r6_361 = r6_361["EasingDirection"]
+		r6_361 = r6_361["Out"]
+		r3_361 = r3_361(r4_361, r5_361, r6_361)
+		do -- SELFC 
+		  local A = r0_361
+		  r5_361 = A
+		  r4_361 = A["Create"]
+		end
+		r6_361 = r29_345
+		r7_361 = r3_361
+		r8_361 = {}
+		r8_361["Size"] = r2_361
+		r4_361 = r4_361(r5_361, r6_361, r7_361, r8_361)
+		do -- SELFC 
+		  local A = r4_361
+		  r6_361 = A
+		  r5_361 = A["Play"]
+		end
+		r5_361(r6_361)
+		r5_361 = r33_345
+		r5_361 = r5_361()
+		r34_345 = r5_361
+		r5_361 = r34_345
+		do -- SELFC 
+		  local A = r5_361
+		  r6_361 = A
+		  r5_361 = A["Play"]
+		end
+		r5_361(r6_361)
+		return
+	end
+	function r36_345()
+		r0_367 = game
+		do -- SELFC 
+		  local A = r0_367
+		  r1_367 = A
+		  r0_367 = A["GetService"]
+		end
+		r2_367 = "TweenService"
+		r0_367 = r0_367(r1_367, r2_367)
+		r1_367 = r29_345
+		r1_367 = r1_367["Size"]
+		r2_367 = TweenInfo
+		r2_367 = r2_367["new"]
+		r3_367 = 0.5
+		r4_367 = Enum
+		r4_367 = r4_367["EasingStyle"]
+		r4_367 = r4_367["Quad"]
+		r5_367 = Enum
+		r5_367 = r5_367["EasingDirection"]
+		r5_367 = r5_367["Out"]
+		r2_367 = r2_367(r3_367, r4_367, r5_367)
+		do -- SELFC 
+		  local A = r0_367
+		  r4_367 = A
+		  r3_367 = A["Create"]
+		end
+		r5_367 = r29_345
+		r6_367 = r2_367
+		r7_367 = {}
+		r8_367 = UDim2
+		r8_367 = r8_367["new"]
+		r9_367 = 0.1
+		r10_367 = 0
+		r11_367 = 0.05
+		r12_367 = 0
+		r8_367 = r8_367(r9_367, r10_367, r11_367, r12_367)
+		r7_367["Size"] = r8_367
+		r3_367 = r3_367(r4_367, r5_367, r6_367, r7_367)
+		do -- SELFC 
+		  local A = r3_367
+		  r5_367 = A
+		  r4_367 = A["Play"]
+		end
+		r4_367(r5_367)
+		r4_367 = r34_345
+		if not r4_367 then
+			return
+		else
+			r4_367 = r34_345
+			do -- SELFC 
+			  local A = r4_367
+			  r5_367 = A
+			  r4_367 = A["Cancel"]
+			end
+			r4_367(r5_367)
+		end
+	end
+	r37_345 = r29_345["MouseEnter"]
+	do -- SELFC 
+	  local A = r37_345
+	  r38_345 = A
+	  r37_345 = A["Connect"]
+	end
+	r39_345 = r35_345
+	r37_345(r38_345, r39_345)
+	r37_345 = r29_345["MouseLeave"]
+	do -- SELFC 
+	  local A = r37_345
+	  r38_345 = A
+	  r37_345 = A["Connect"]
+	end
+	r39_345 = r36_345
+	r37_345(r38_345, r39_345)
+	function r37_345()
+		r0_356 = r29_345
+		r0_356["Text"] = "Injected!"
+		r0_356 = game
+		do -- SELFC 
+		  local A = r0_356
+		  r1_356 = A
+		  r0_356 = A["GetService"]
+		end
+		r2_356 = "TweenService"
+		r0_356 = r0_356(r1_356, r2_356)
+		r1_356 = TweenInfo
+		r1_356 = r1_356["new"]
+		r2_356 = 2
+		r3_356 = Enum
+		r3_356 = r3_356["EasingStyle"]
+		r3_356 = r3_356["Quart"]
+		r4_356 = Enum
+		r4_356 = r4_356["EasingDirection"]
+		r4_356 = r4_356["Out"]
+		r1_356 = r1_356(r2_356, r3_356, r4_356)
+		r2_356 = {}
+		r2_356["BackgroundTransparency"] = 1
+		r3_356 = UDim2
+		r3_356 = r3_356["new"]
+		r4_356 = 0
+		r5_356 = 0
+		r6_356 = 0
+		r7_356 = 0
+		r3_356 = r3_356(r4_356, r5_356, r6_356, r7_356)
+		r2_356["Size"] = r3_356
+		r3_356 = {}
+		r3_356["BackgroundTransparency"] = 1
+		r4_356 = UDim2
+		r4_356 = r4_356["new"]
+		r5_356 = 0
+		r6_356 = 0
+		r7_356 = 0
+		r8_356 = 0
+		r4_356 = r4_356(r5_356, r6_356, r7_356, r8_356)
+		r3_356["Size"] = r4_356
+		do -- SELFC 
+		  local A = r0_356
+		  r5_356 = A
+		  r4_356 = A["Create"]
+		end
+		r6_356 = r29_345
+		r7_356 = r1_356
+		r8_356 = r2_356
+		r4_356 = r4_356(r5_356, r6_356, r7_356, r8_356)
+		do -- SELFC 
+		  local A = r0_356
+		  r6_356 = A
+		  r5_356 = A["Create"]
+		end
+		r7_356 = r28_345
+		r8_356 = r1_356
+		r9_356 = r3_356
+		r5_356 = r5_356(r6_356, r7_356, r8_356, r9_356)
+		do -- SELFC 
+		  local A = r4_356
+		  r7_356 = A
+		  r6_356 = A["Play"]
+		end
+		r6_356(r7_356)
+		do -- SELFC 
+		  local A = r5_356
+		  r7_356 = A
+		  r6_356 = A["Play"]
+		end
+		r6_356(r7_356)
+		r6_356 = r4_356["Completed"]
+		do -- SELFC 
+		  local A = r6_356
+		  r7_356 = A
+		  r6_356 = A["Connect"]
+		end
+		function r8_356()
+			r0_357 = r27_345
+			do -- SELFC 
+			  local A = r0_357
+			  r1_357 = A
+			  r0_357 = A["Destroy"]
+			end
+			r0_357(r1_357)
+			return
+		end
+		r6_356(r7_356, r8_356)
+		return
+	end
+	r38_345 = r29_345["MouseButton1Click"]
+	do -- SELFC 
+	  local A = r38_345
+	  r39_345 = A
+	  r38_345 = A["Connect"]
+	end
+	r40_345 = r37_345
+	r38_345(r39_345, r40_345)
+	function r38_345()
+		r0_381 = Instance
+		r0_381 = r0_381["new"]
+		r1_381 = "ScreenGui"
+		r0_381 = r0_381(r1_381)
+		r0_381["Name"] = "DarkGrayBoxGui"
+		r1_381 = game
+		r1_381 = r1_381["Players"]
+		r1_381 = r1_381["LocalPlayer"]
+		do -- SELFC 
+		  local A = r1_381
+		  r2_381 = A
+		  r1_381 = A["WaitForChild"]
+		end
+		r3_381 = "PlayerGui"
+		r1_381 = r1_381(r2_381, r3_381)
+		r0_381["Parent"] = r1_381
+		r1_381 = Instance
+		r1_381 = r1_381["new"]
+		r2_381 = "Frame"
+		r3_381 = r0_381
+		r1_381 = r1_381(r2_381, r3_381)
+		r2_381 = Vector2
+		r2_381 = r2_381["new"]
+		r3_381 = 0.5
+		r4_381 = 0.5
+		r2_381 = r2_381(r3_381, r4_381)
+		r1_381["AnchorPoint"] = r2_381
+		r2_381 = UDim2
+		r2_381 = r2_381["new"]
+		r3_381 = 0.3
+		r4_381 = 0
+		r5_381 = 0.3
+		r6_381 = 0
+		r2_381 = r2_381(r3_381, r4_381, r5_381, r6_381)
+		r1_381["Size"] = r2_381
+		r2_381 = UDim2
+		r2_381 = r2_381["new"]
+		r3_381 = 0.5
+		r4_381 = 0
+		r5_381 = 0.5
+		r6_381 = 0
+		r2_381 = r2_381(r3_381, r4_381, r5_381, r6_381)
+		r1_381["Position"] = r2_381
+		r2_381 = Color3
+		r2_381 = r2_381["fromRGB"]
+		r3_381 = 50
+		r4_381 = 50
+		r5_381 = 50
+		r2_381 = r2_381(r3_381, r4_381, r5_381)
+		r1_381["BackgroundColor3"] = r2_381
+		r1_381["Visible"] = false
+		r2_381 = Instance
+		r2_381 = r2_381["new"]
+		r3_381 = "UICorner"
+		r4_381 = r1_381
+		r2_381 = r2_381(r3_381, r4_381)
+		r3_381 = UDim
+		r3_381 = r3_381["new"]
+		r4_381 = 0
+		r5_381 = 10
+		r3_381 = r3_381(r4_381, r5_381)
+		r2_381["CornerRadius"] = r3_381
+		r3_381 = Instance
+		r3_381 = r3_381["new"]
+		r4_381 = "TextLabel"
+		r5_381 = r1_381
+		r3_381 = r3_381(r4_381, r5_381)
+		r4_381 = UDim2
+		r4_381 = r4_381["new"]
+		r5_381 = 1
+		r6_381 = 0
+		r7_381 = 0.1
+		r8_381 = 0
+		r4_381 = r4_381(r5_381, r6_381, r7_381, r8_381)
+		r3_381["Size"] = r4_381
+		r4_381 = UDim2
+		r4_381 = r4_381["new"]
+		r5_381 = 0
+		r6_381 = 0
+		r7_381 = 0
+		r8_381 = 0
+		r4_381 = r4_381(r5_381, r6_381, r7_381, r8_381)
+		r3_381["Position"] = r4_381
+		r3_381["Text"] = "KeyBinds"
+		r4_381 = Color3
+		r4_381 = r4_381["fromRGB"]
+		r5_381 = 255
+		r6_381 = 255
+		r7_381 = 255
+		r4_381 = r4_381(r5_381, r6_381, r7_381)
+		r3_381["TextColor3"] = r4_381
+		r3_381["TextScaled"] = true
+		r4_381 = Enum
+		r4_381 = r4_381["Font"]
+		r4_381 = r4_381["SourceSans"]
+		r3_381["Font"] = r4_381
+		r4_381 = Enum
+		r4_381 = r4_381["TextXAlignment"]
+		r4_381 = r4_381["Left"]
+		r3_381["TextXAlignment"] = r4_381
+		r4_381 = {}
+		r5_381 = {}
+		r6_381 = "Highlight Keybind: G"
+		r7_381 = 0.2
+		r5_381 = {r6_381, r7_381}
+		r6_381 = {}
+		r7_381 = "Aimlock Keybind: Right Click"
+		r8_381 = 0.3
+		r6_381 = {r7_381, r8_381}
+		r7_381 = {}
+		r8_381 = "Teleport Keybind: V"
+		r9_381 = 0.4
+		r7_381 = {r8_381, r9_381}
+		r8_381 = {}
+		r9_381 = "Teleport up Keybind: L (hold down)"
+		r10_381 = 0.5
+		r8_381 = {r9_381, r10_381}
+		r9_381 = {}
+		r10_381 = "Speed Keybind: C (hold down)"
+		r11_381 = 0.6
+		r9_381 = {r10_381, r11_381}
+		r4_381 = {r5_381, r6_381, r7_381, r8_381, r9_381}
+		r5_381 = ipairs
+		r6_381 = r4_381
+		r5_381, r6_381, r7_381 = r5_381(r6_381)
+		for r8_381, r9_381 in r5_381, r6_381, r7_381 do
+			r10_381 = Instance
+			r10_381 = r10_381["new"]
+			r11_381 = "TextLabel"
+			r12_381 = r1_381
+			r10_381 = r10_381(r11_381, r12_381)
+			r11_381 = UDim2
+			r11_381 = r11_381["new"]
+			r12_381 = 1
+			r13_381 = 0
+			r14_381 = 0.1
+			r15_381 = 0
+			r11_381 = r11_381(r12_381, r13_381, r14_381, r15_381)
+			r10_381["Size"] = r11_381
+			r11_381 = UDim2
+			r11_381 = r11_381["new"]
+			r12_381 = 0
+			r13_381 = 0
+			r14_381 = r9_381[2]
+			r15_381 = 0
+			r11_381 = r11_381(r12_381, r13_381, r14_381, r15_381)
+			r10_381["Position"] = r11_381
+			r11_381 = r9_381[1]
+			r10_381["Text"] = r11_381
+			r11_381 = Color3
+			r11_381 = r11_381["fromRGB"]
+			r12_381 = 255
+			r13_381 = 255
+			r14_381 = 255
+			r11_381 = r11_381(r12_381, r13_381, r14_381)
+			r10_381["TextColor3"] = r11_381
+			r10_381["TextScaled"] = true
+			r11_381 = Enum
+			r11_381 = r11_381["Font"]
+			r11_381 = r11_381["SourceSans"]
+			r10_381["Font"] = r11_381
+			r11_381 = Enum
+			r11_381 = r11_381["TextXAlignment"]
+			r11_381 = r11_381["Left"]
+			r10_381["TextXAlignment"] = r11_381
+		end
+		r5_381 = game
+		do -- SELFC 
+		  local A = r5_381
+		  r6_381 = A
+		  r5_381 = A["GetService"]
+		end
+		r7_381 = "TweenService"
+		r5_381 = r5_381(r6_381, r7_381)
+		r6_381 = TweenInfo
+		r6_381 = r6_381["new"]
+		r7_381 = 0.5
+		r8_381 = Enum
+		r8_381 = r8_381["EasingStyle"]
+		r8_381 = r8_381["Quad"]
+		r9_381 = Enum
+		r9_381 = r9_381["EasingDirection"]
+		r9_381 = r9_381["Out"]
+		r6_381 = r6_381(r7_381, r8_381, r9_381)
+		r7_381 = UDim2
+		r7_381 = r7_381["new"]
+		r8_381 = 0
+		r9_381 = 0
+		r10_381 = 0
+		r11_381 = 0
+		r7_381 = r7_381(r8_381, r9_381, r10_381, r11_381)
+		function r8_381()
+			r0_383 = print
+			r1_383 = "Toggling DarkGrayBox"
+			r0_383(r1_383)
+			r0_383 = r1_381
+			r0_383 = r0_383["Visible"]
+			if r0_383 then
+				r0_383 = r5_381
+				do -- SELFC 
+				  local A = r0_383
+				  r1_383 = A
+				  r0_383 = A["Create"]
+				end
+				r2_383 = r1_381
+				r3_383 = r6_381
+				r4_383 = {}
+				r5_383 = r7_381
+				r4_383["Size"] = r5_383
+				r0_383 = r0_383(r1_383, r2_383, r3_383, r4_383)
+				do -- SELFC 
+				  local A = r0_383
+				  r2_383 = A
+				  r1_383 = A["Play"]
+				end
+				r1_383(r2_383)
+				r1_383 = r0_383["Completed"]
+				do -- SELFC 
+				  local A = r1_383
+				  r2_383 = A
+				  r1_383 = A["Connect"]
+				end
+				function r3_383()
+					r0_384 = r1_381
+					r0_384["Visible"] = false
+					r0_384 = print
+					r1_384 = "DarkGrayBox hidden"
+					r0_384(r1_384)
+					return
+				end
+				r1_383(r2_383, r3_383)
+				goto LABEL_4
+			else
+				r0_383 = r1_381
+				r1_383 = r7_381
+				r0_383["Size"] = r1_383
+				r0_383 = r1_381
+				r0_383["Visible"] = true
+				r0_383 = r5_381
+				do -- SELFC 
+				  local A = r0_383
+				  r1_383 = A
+				  r0_383 = A["Create"]
+				end
+				r2_383 = r1_381
+				r3_383 = r6_381
+				r4_383 = {}
+				r5_383 = UDim2
+				r5_383 = r5_383["new"]
+				r6_383 = 0.3
+				r7_383 = 0
+				r8_383 = 0.3
+				r9_383 = 0
+				r5_383 = r5_383(r6_383, r7_383, r8_383, r9_383)
+				r4_383["Size"] = r5_383
+				r0_383 = r0_383(r1_383, r2_383, r3_383, r4_383)
+				do -- SELFC 
+				  local A = r0_383
+				  r2_383 = A
+				  r1_383 = A["Play"]
+				end
+				r1_383(r2_383)
+				r1_383 = print
+				r2_383 = "DarkGrayBox shown"
+				r1_383(r2_383)
+				::LABEL_4::
+				return
+			end
+		end
+		r9_381 = game
+		do -- SELFC 
+		  local A = r9_381
+		  r10_381 = A
+		  r9_381 = A["GetService"]
+		end
+		r11_381 = "UserInputService"
+		r9_381 = r9_381(r10_381, r11_381)
+		r10_381 = r9_381["InputBegan"]
+		do -- SELFC 
+		  local A = r10_381
+		  r11_381 = A
+		  r10_381 = A["Connect"]
+		end
+		function r12_381(r0_381, r1_381)
+			if not r1_382 then
+				r2_382 = r0_382["KeyCode"]
+				r3_382 = Enum
+				r3_382 = r3_382["KeyCode"]
+				r3_382 = r3_382["U"]
+				if r2_382 ~= r3_382 then
+					return
+				else
+					r2_382 = r8_381
+					r2_382()
+				end
+			else
+				
+			end
+		end
+		r10_381(r11_381, r12_381)
+		return
+	end
+	r39_345 = game
+	r39_345 = r39_345["Players"]
+	r39_345 = r39_345["LocalPlayer"]
+	r40_345 = r39_345["CharacterAdded"]
+	do -- SELFC 
+	  local A = r40_345
+	  r41_345 = A
+	  r40_345 = A["Connect"]
+	end
+	function r42_345()
+		r0_362 = print
+		r1_362 = "Character added"
+		r0_362(r1_362)
+		r0_362 = r38_345
+		r0_362()
+		return
+	end
+	r40_345(r41_345, r42_345)
+	r40_345 = r39_345["Character"]
+	if not r40_345 then
+		r40_345 = game
+		r40_345 = r40_345["Players"]
+		r40_345 = r40_345["LocalPlayer"]
+		r41_345 = r40_345["Character"]
+		if r41_345 then
+			do -- SELFC 
+			  local A = r41_345
+			  r43_345 = A
+			  r42_345 = A["WaitForChild"]
+			end
+			r44_345 = "Humanoid"
+			r42_345 = r42_345(r43_345, r44_345)
+			r43_345 = 1.7
+			function r44_345()
+				r0_374 = r42_345
+				r0_374 = r0_374["MoveDirection"]
+				r1_374 = Vector3
+				r1_374 = r1_374["new"]
+				r2_374 = 0
+				r3_374 = 0
+				r4_374 = 0
+				r1_374 = r1_374(r2_374, r3_374, r4_374)
+				if r0_374 ~= r1_374 then
+					r0_374 = r0_374["unit"]
+					r1_374 = r41_345
+					r1_374 = r1_374["HumanoidRootPart"]
+					r1_374 = r1_374["Position"]
+					r2_374 = r43_345
+					r2_374 = r0_374 * r2_374
+					r1_374 = r1_374 + r2_374
+					r2_374 = r41_345
+					do -- SELFC 
+					  local A = r2_374
+					  r3_374 = A
+					  r2_374 = A["SetPrimaryPartCFrame"]
+					end
+					r4_374 = CFrame
+					r4_374 = r4_374["new"]
+					r5_374 = r1_374
+					r2_374(r3_374, _R_CALL())
+				else
+					return
+				end
+			end
+			function r45_345(r0_345, r1_345)
+				r2_350 = r0_350["KeyCode"]
+				r3_350 = Enum
+				r3_350 = r3_350["KeyCode"]
+				r3_350 = r3_350["C"]
+				if r2_350 ~= r3_350 then
+					
+				else
+					if not r1_350 then
+						r2_350 = game
+						do -- SELFC 
+						  local A = r2_350
+						  r3_350 = A
+						  r2_350 = A["GetService"]
+						end
+						r4_350 = "UserInputService"
+						r2_350 = r2_350(r3_350, r4_350)
+						do -- SELFC 
+						  local A = r2_350
+						  r3_350 = A
+						  r2_350 = A["IsKeyDown"]
+						end
+						r4_350 = Enum
+						r4_350 = r4_350["KeyCode"]
+						r4_350 = r4_350["C"]
+						r2_350 = r2_350(r3_350, r4_350)
+						if not r2_350 then
+							
+						else
+							r2_350 = r44_345
+							r2_350()
+							r2_350 = wait
+							r3_350 = 0.1
+							r2_350(r3_350)
+						end
+					else
+						return
+					end
+				end
+			end
+			r46_345 = game
+			do -- SELFC 
+			  local A = r46_345
+			  r47_345 = A
+			  r46_345 = A["GetService"]
+			end
+			r48_345 = "UserInputService"
+			r46_345 = r46_345(r47_345, r48_345)
+			r46_345 = r46_345["InputBegan"]
+			do -- SELFC 
+			  local A = r46_345
+			  r47_345 = A
+			  r46_345 = A["Connect"]
+			end
+			r48_345 = r45_345
+			r46_345(r47_345, r48_345)
+			r46_345 = r40_345["CharacterAdded"]
+			do -- SELFC 
+			  local A = r46_345
+			  r47_345 = A
+			  r46_345 = A["Connect"]
+			end
+			function r48_345(r0_345)
+				r41_345 = r0_348
+				r1_348 = r41_345
+				do -- SELFC 
+				  local A = r1_348
+				  r2_348 = A
+				  r1_348 = A["WaitForChild"]
+				end
+				r3_348 = "Humanoid"
+				r1_348 = r1_348(r2_348, r3_348)
+				r42_345 = r1_348
+				return
+			end
+			r46_345(r47_345, r48_345)
+			r46_345 = game
+			r46_345 = r46_345["Players"]
+			r46_345 = r46_345["LocalPlayer"]
+			r47_345 = r46_345["Character"]
+			if not r47_345 then
+				r47_345 = r46_345["CharacterAdded"]
+				do -- SELFC 
+				  local A = r47_345
+				  r48_345 = A
+				  r47_345 = A["Wait"]
+				end
+				r47_345 = r47_345(r48_345)
+			else
+				do -- SELFC 
+				  local A = r47_345
+				  r49_345 = A
+				  r48_345 = A["WaitForChild"]
+				end
+				r50_345 = "Humanoid"
+				r48_345 = r48_345(r49_345, r50_345)
+				r49_345 = 4
+				function r50_345()
+					r0_349 = r48_345
+					r0_349 = r0_349["MoveDirection"]
+					r1_349 = Vector3
+					r1_349 = r1_349["new"]
+					r2_349 = 0
+					r3_349 = 0
+					r4_349 = 0
+					r1_349 = r1_349(r2_349, r3_349, r4_349)
+					if r0_349 == r1_349 then
+						return
+					else
+						r0_349 = r0_349["unit"]
+						r1_349 = r47_345
+						r1_349 = r1_349["HumanoidRootPart"]
+						r1_349 = r1_349["Position"]
+						r2_349 = r49_345
+						r2_349 = r0_349 * r2_349
+						r1_349 = r1_349 + r2_349
+						r2_349 = r47_345
+						do -- SELFC 
+						  local A = r2_349
+						  r3_349 = A
+						  r2_349 = A["SetPrimaryPartCFrame"]
+						end
+						r4_349 = CFrame
+						r4_349 = r4_349["new"]
+						r5_349 = r1_349
+						r2_349(r3_349, _R_CALL())
+					end
+				end
+				function r51_345(r0_345, r1_345)
+					r2_346 = r0_346["KeyCode"]
+					r3_346 = Enum
+					r3_346 = r3_346["KeyCode"]
+					r3_346 = r3_346["V"]
+					if r2_346 == r3_346 then
+						if not r1_346 then
+							r2_346 = r50_345
+							r2_346()
+						else
+							return
+						end
+					else
+						
+					end
+				end
+				r52_345 = game
+				do -- SELFC 
+				  local A = r52_345
+				  r53_345 = A
+				  r52_345 = A["GetService"]
+				end
+				r54_345 = "UserInputService"
+				r52_345 = r52_345(r53_345, r54_345)
+				r52_345 = r52_345["InputBegan"]
+				do -- SELFC 
+				  local A = r52_345
+				  r53_345 = A
+				  r52_345 = A["Connect"]
+				end
+				r54_345 = r51_345
+				r52_345(r53_345, r54_345)
+				r52_345 = r46_345["CharacterAdded"]
+				do -- SELFC 
+				  local A = r52_345
+				  r53_345 = A
+				  r52_345 = A["Connect"]
+				end
+				function r54_345(r0_345)
+					r47_345 = r0_359
+					r1_359 = r47_345
+					do -- SELFC 
+					  local A = r1_359
+					  r2_359 = A
+					  r1_359 = A["WaitForChild"]
+					end
+					r3_359 = "Humanoid"
+					r1_359 = r1_359(r2_359, r3_359)
+					r48_345 = r1_359
+					return
+				end
+				r52_345(r53_345, r54_345)
+				r52_345 = game
+				r52_345 = r52_345["Players"]
+				r52_345 = r52_345["LocalPlayer"]
+				r53_345 = r52_345["Character"]
+				if r53_345 then
+					do -- SELFC 
+					  local A = r53_345
+					  r55_345 = A
+					  r54_345 = A["WaitForChild"]
+					end
+					r56_345 = "Humanoid"
+					r54_345 = r54_345(r55_345, r56_345)
+					r55_345 = 6
+					r56_345 = false
+					function r57_345()
+						r0_368 = r53_345
+						r0_368 = r0_368["HumanoidRootPart"]
+						r0_368 = r0_368["Position"]
+						r1_368 = Vector3
+						r1_368 = r1_368["new"]
+						r2_368 = 0
+						r3_368 = r55_345
+						r4_368 = 0
+						r1_368 = r1_368(r2_368, r3_368, r4_368)
+						r0_368 = r0_368 + r1_368
+						r1_368 = r53_345
+						do -- SELFC 
+						  local A = r1_368
+						  r2_368 = A
+						  r1_368 = A["SetPrimaryPartCFrame"]
+						end
+						r3_368 = CFrame
+						r3_368 = r3_368["new"]
+						r4_368 = r0_368
+						r1_368(r2_368, _R_CALL())
+						return
+					end
+					function r58_345(r0_345, r1_345)
+						r2_369 = r0_369["KeyCode"]
+						r3_369 = Enum
+						r3_369 = r3_369["KeyCode"]
+						r3_369 = r3_369["L"]
+						if r2_369 ~= r3_369 then
+							
+						else
+							if not r1_369 then
+								r2_369 = true
+								r56_345 = r2_369
+								r2_369 = spawn
+								function r3_369()
+									::LABEL_5::
+									r0_370 = r56_345
+									if r0_370 then
+										r0_370 = r57_345
+										r0_370()
+										r0_370 = wait
+										r1_370 = 0.1
+										r0_370(r1_370)
+										goto LABEL_5
+									else
+										return
+									end
+								end
+								r2_369(r3_369)
+							else
+								return
+							end
+						end
+					end
+					function r59_345(r0_345, r1_345)
+						r2_364 = r0_364["KeyCode"]
+						r3_364 = Enum
+						r3_364 = r3_364["KeyCode"]
+						r3_364 = r3_364["L"]
+						if r2_364 == r3_364 then
+							if not r1_364 then
+								r2_364 = false
+								r56_345 = r2_364
+							else
+								return
+							end
+						else
+							
+						end
+					end
+					r60_345 = game
+					do -- SELFC 
+					  local A = r60_345
+					  r61_345 = A
+					  r60_345 = A["GetService"]
+					end
+					r62_345 = "UserInputService"
+					r60_345 = r60_345(r61_345, r62_345)
+					r60_345 = r60_345["InputBegan"]
+					do -- SELFC 
+					  local A = r60_345
+					  r61_345 = A
+					  r60_345 = A["Connect"]
+					end
+					r62_345 = r58_345
+					r60_345(r61_345, r62_345)
+					r60_345 = game
+					do -- SELFC 
+					  local A = r60_345
+					  r61_345 = A
+					  r60_345 = A["GetService"]
+					end
+					r62_345 = "UserInputService"
+					r60_345 = r60_345(r61_345, r62_345)
+					r60_345 = r60_345["InputEnded"]
+					do -- SELFC 
+					  local A = r60_345
+					  r61_345 = A
+					  r60_345 = A["Connect"]
+					end
+					r62_345 = r59_345
+					r60_345(r61_345, r62_345)
+					r60_345 = r52_345["CharacterAdded"]
+					do -- SELFC 
+					  local A = r60_345
+					  r61_345 = A
+					  r60_345 = A["Connect"]
+					end
+					function r62_345(r0_345)
+						r53_345 = r0_385
+						r1_385 = r53_345
+						do -- SELFC 
+						  local A = r1_385
+						  r2_385 = A
+						  r1_385 = A["WaitForChild"]
+						end
+						r3_385 = "Humanoid"
+						r1_385 = r1_385(r2_385, r3_385)
+						r54_345 = r1_385
+						return
+					end
+					r60_345(r61_345, r62_345)
+					r60_345 = game
+					do -- SELFC 
+					  local A = r60_345
+					  r61_345 = A
+					  r60_345 = A["GetService"]
+					end
+					r62_345 = "Players"
+					r60_345 = r60_345(r61_345, r62_345)
+					r61_345 = r60_345["LocalPlayer"]
+					function r62_345(r0_345)
+						if not r0_358 then
+							
+						else
+							do -- SELFC 
+							  local A = r0_358
+							  r2_358 = A
+							  r1_358 = A["FindFirstChild"]
+							end
+							r3_358 = "Head"
+							r1_358 = r1_358(r2_358, r3_358)
+							if r1_358 then
+								r2_358 = ipairs
+								do -- SELFC 
+								  local A = r1_358
+								  r4_358 = A
+								  r3_358 = A["GetChildren"]
+								end
+								r2_358, r3_358, r4_358 = r2_358()
+							else
+								
+							end
+						end
+					end
+					r63_345 = r61_345["CharacterAdded"]
+					do -- SELFC 
+					  local A = r63_345
+					  r64_345 = A
+					  r63_345 = A["Connect"]
+					end
+					function r65_345(r0_345)
+						r1_347 = r62_345
+						r2_347 = r0_347
+						r1_347(r2_347)
+						return
+					end
+					r63_345(r64_345, r65_345)
+					r63_345 = r61_345["Character"]
+					if r63_345 then
+						r63_345 = r62_345
+						r64_345 = r61_345["Character"]
+						r63_345(r64_345)
+					else
+						return
+					end
+				else
+					r53_345 = r52_345["CharacterAdded"]
+					do -- SELFC 
+					  local A = r53_345
+					  r54_345 = A
+					  r53_345 = A["Wait"]
+					end
+					r53_345 = r53_345(r54_345)
+				end
+			end
+		else
+			r41_345 = r40_345["CharacterAdded"]
+			do -- SELFC 
+			  local A = r41_345
+			  r42_345 = A
+			  r41_345 = A["Wait"]
+			end
+			r41_345 = r41_345(r42_345)
+		end
+	else
+		r40_345 = print
+		r41_345 = "Character already exists"
+		r40_345(r41_345)
+		r40_345 = r38_345
+		r40_345()
+	end
+else
+	return
+end
